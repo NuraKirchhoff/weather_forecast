@@ -37,6 +37,10 @@ button:hover {
   background-color: rgb(208, 208, 208);
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   max-width: 900px;
   margin: 50px auto;
@@ -89,4 +93,7 @@ button:hover {
 }
 .city-info {
   margin: 20px auto;
+}
+.forecast {
+  margin: 30px 0;
 }
