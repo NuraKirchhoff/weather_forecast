@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form class="form-group has-search">
+        <span class="fa fa-search form-control-feedback"></span>
+        <input
+          type="text"
+          class="form-control"
+          id="city-form"
+          placeholder="Search"
+        />
+      </form>
+      <button>Current location</button>
+      <div class="row city-info">
+        <div class="col city">
+          <h1>Kharkiv</h1>
+          <h2>Tuesday 16:00</h2>
+        </div>
+
+        <div class="row col param">
+          <div class="col-7 temp">
+            <div id="degree-numb">23</div>
+            <div class="degree">ºC</div>
+          </div>
+          <div class="col">
+            <ul>
+              <li><span id="clearity">Clear</span></li>
+              <li>Humidity:<span id="humidity"></span></li>
+              <li>Wind: <span id="wind"></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col days">
+          Mon
+          <div>🌧️</div>
+          19 ºC
+        </div>
+        <div class="col days">
+          Tue
+          <div>🌞</div>
+          24 ºC
+        </div>
+        <div class="col days">
+          Wed
+          <div>🌥️</div>
+          21 ºC
+        </div>
+        <div class="col days">
+          Thu
+          <div>☁️</div>
+          20 ºC
+        </div>
+        <div class="col days">
+          Fri
+          <div>🌞</div>
+          27 ºC
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

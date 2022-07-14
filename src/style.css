@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "FontAwesome";
+  src: url("/font-awesome/fontawesome-webfont.eot");
+  src: url("/font-awesome/fontawesome-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("/font-awesome/fontawesome-webfont.woff2") format("woff2"),
+    url("/font-awesome/fontawesome-webfont.woff") format("woff"),
+    url("/font-awesome/fontawesome-webfont.ttf") format("truetype"),
+    url("/font-awesome/fontawesome-webfont.svgfontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 4em;
+  margin-bottom: 0;
+}
+
+ul {
+  padding: 0;
+  margin-top: 10px;
+  text-align: left;
+  font-size: 15px;
+}
+li {
+  list-style-type: none;
+}
+button {
+  padding: 5px;
+  margin: 10px 0;
+  background-color: rgb(245, 245, 245);
+  color: rgb(100, 100, 100);
+  border-color: rgb(200, 200, 200);
+  border-radius: 5px;
+}
+button:hover {
+  background-color: rgb(208, 208, 208);
+}
+
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+
+  color: rgb(100, 100, 100);
+}
+.param {
+  text-align: right;
+  margin: 0 auto;
+  width: 400px;
+  font-size: 5em;
+}
+.degree {
+  display: inline-block;
+
+  font-size: 40px;
+  text-align: left;
+  vertical-align: top;
+}
+.days {
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+  width: 93%;
+}
+
+.has-search .form-control-feedback {
+  position: relative;
+  left: 10px;
+  bottom: -37px;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  pointer-events: none;
+  color: #aaa;
+}
+.city {
+  text-align: left;
+  padding: 0;
+}
+#degree-numb {
+  display: inline-block;
+  font-size: 120px;
+  line-height: 100px;
+}
+.city-info {
+  margin: 20px auto;
+}
